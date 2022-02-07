@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  background-color: rgb(56, 56, 173);
+  text-align: center;
+  margin-top: 300px;
+  color: white;
+}
+h1,
+h2 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+div p{
+    font-size: 30px;
+}
+section{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+button {
+    color: white;
+  height: 40px;
+  width: 100px;
+  background-color: rgb(56,56,173);
+  border: 2px solid white;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button:hover{
+    background-color: lightblue;
+}
+
