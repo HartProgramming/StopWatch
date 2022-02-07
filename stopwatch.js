@@ -12,9 +12,10 @@ function first(){
     turnOver = false;
     firstDigit = firstDigit + 1;
     hunds.textContent = firstDigit;
-    if(firstDigit === 60){
+    tens.textContent = secondDigit;
+
+    if(firstDigit === 59){
         secondDigit = secondDigit + 1;
-        tens.textContent = secondDigit;
         turnOver = true;
         if(turnOver === true){
             firstDigit = 0;
@@ -40,5 +41,5 @@ stop.addEventListener("click", function () {
 
 reset.addEventListener("click",function(){
     firstDigit = 0;
-    secondDigit;
+    secondDigit = 0;
 })
